@@ -41,7 +41,7 @@ project
 https://github.com/user-attachments/assets/626da2ef-c1c6-450f-89e2-b32f3bf94d2a
 
 <br>
-Clear
+### Clear
 <br>
 
 ![game_clear_preview.png](showcase/game_clear_preview.png)
