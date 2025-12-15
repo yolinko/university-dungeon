@@ -1,0 +1,211 @@
+{
+    "ui": {
+        "start_game": "게임 시작",
+        "settings": "설정",
+        "back": "뒤로",
+        "enter_dungeon": "대학 던전",
+        "paused": "일시정지",
+        "game_over": "게임 오버",
+        "restart": "R 키를 눌러 재시작",
+        "choose_buff": "버프 선택",
+        "no_settings": "설정 항목이 없습니다.",
+        "level": "레벨",
+        "gold": "골드",
+        "enemies": "적",
+        "dash_hint": "Shift 를 눌러서 대시하기",
+        "esc_hint": "ESC: 일시정지",
+        "skill_ready": "데미지 강화 - R : 스킬 준비됨",
+        "skill_cooldown": "데미지 강화 - R : {time:.1f}",
+        "max_hp": "최대 체력",
+        "damage": "공격력",
+        "speed": "이동 속도",
+        "volume_bgm": "배경음악 음량",
+        "volume_sfx": "효과음 음량",
+        "language": "언어",
+        "shop_title": "상점",
+        "skip": "건너뛰기",
+        "weapon_hint": "무기 교체",
+        "game_clear": "게임 클리어!",
+        "total_time": "총 소요 시간: {time}"
+    },
+    "weapons": {
+        "gun": "샤프심",
+        "sword": "플라스틱 자"
+    },
+    "buff_types": {
+        "stat": "능력치",
+        "heal": "회복",
+        "gold": "골드",
+        "relic": "유물",
+        "special": "특수",
+        "random": "무작위",
+        "cosmetic": "치장"
+    },
+    "buffs": {
+        "max_hp_up_small": {
+            "name": "편의점 김밥",
+            "desc": "<b>최대 체력</b>이 <color=#00ff00>20</color> 증가합니다."
+        },
+        "max_hp_up_medium": {
+            "name": "학식 특식",
+            "desc": "<b>최대 체력</b>이 <color=#00ff00>50</color> 증가합니다."
+        },
+        "max_hp_up_large": {
+            "name": "홍삼 엑기스",
+            "desc": "<b>최대 체력</b>이 <color=#00ff00>100</color> 증가합니다."
+        },
+        "damage_up_small": {
+            "name": "날카로운 샤프",
+            "desc": "<b>공격력</b>이 <color=#ff0000>5</color> 증가합니다."
+        },
+        "damage_up_medium": {
+            "name": "A+의 의지",
+            "desc": "<b>공격력</b>이 <color=#ff0000>10</color> 증가합니다."
+        },
+        "damage_up_large": {
+            "name": "대학원생의 분노",
+            "desc": "<b>공격력</b>이 <color=#ff0000>20</color> 증가합니다."
+        },
+        "speed_up_small": {
+            "name": "새 운동화",
+            "desc": "<b>이동 속도</b>가 <color=#00ffff>20</color> 증가합니다."
+        },
+        "speed_up_medium": {
+            "name": "전동 킥보드",
+            "desc": "<b>이동 속도</b>가 <color=#00ffff>40</color> 증가합니다."
+        },
+        "speed_up_large": {
+            "name": "셔틀버스 막차",
+            "desc": "<b>이동 속도</b>가 <color=#00ffff>60</color> 증가합니다."
+        },
+        "dash_cd_down_small": {
+            "name": "카페인 충전",
+            "desc": "<b>대시 쿨타임</b>이 <color=#ffff00>0.2초</color> 감소합니다."
+        },
+        "dash_cd_down_medium": {
+            "name": "벼락치기 본능",
+            "desc": "<b>대시 쿨타임</b>이 <color=#ffff00>0.5초</color> 감소합니다."
+        },
+        "dash_cd_down_large": {
+            "name": "자체 휴강",
+            "desc": "<b>대시 쿨타임</b>이 <color=#ffff00>1.0초</color> 감소합니다."
+        },
+        "full_heal": {
+            "name": "종강",
+            "desc": "<b>체력</b>을 완전히 회복합니다."
+        },
+        "heal_50": {
+            "name": "보건실 방문",
+            "desc": "<color=#00ff00>50 HP</color>를 회복합니다."
+        },
+        "gold_small": {
+            "name": "동전 줍기",
+            "desc": "<color=#ffd700>50 골드</color>를 획득합니다."
+        },
+        "gold_medium": {
+            "name": "교내 장학금",
+            "desc": "<color=#ffd700>150 골드</color>를 획득합니다."
+        },
+        "gold_large": {
+            "name": "국가 장학금",
+            "desc": "<color=#ffd700>500 골드</color>를 획득합니다."
+        },
+        "tanky": {
+            "name": "전공 서적 가방",
+            "desc": "<b>최대 체력</b>이 <color=#00ff00>100</color> 증가하지만, <b>이동 속도</b>가 <color=#00ffff>30</color> 감소합니다."
+        },
+        "berserker": {
+            "name": "시험 기간",
+            "desc": "<b>공격력</b>이 <color=#ff0000>25</color> 증가하지만, <b>대시 쿨타임</b>이 <color=#ffff00>0.5초</color> 늘어납니다."
+        },
+        "sniper": {
+            "name": "고도수 안경",
+            "desc": "<b>탄환 속도</b>가 <color=#ff00ff>300</color> 증가합니다."
+        },
+        "heavy_bullets": {
+            "name": "전공 책 투척",
+            "desc": "<b>탄환 크기</b>가 증가합니다."
+        },
+        "rapid_fire": {
+            "name": "타자 연습",
+            "desc": "<b>연사 속도</b>가 증가합니다."
+        },
+        "crit_chance": {
+            "name": "족보 획득",
+            "desc": "<color=#ff0000>10%</color> <b>치명타</b> 확률을 얻습니다."
+        },
+        "crit_damage": {
+            "name": "핵심 요약",
+            "desc": "<b>치명타 피해량</b>이 <color=#ff0000>50%</color> 증가합니다."
+        },
+        "knockback": {
+            "name": "팩트 폭격",
+            "desc": "<b>넉백</b> 힘이 증가합니다."
+        },
+        "piercing": {
+            "name": "논리적 반박",
+            "desc": "총알이 적을 <b>관통</b>합니다."
+        },
+        "burn_touch": {
+            "name": "뜨거운 열정",
+            "desc": "공격 시 <b>화상</b>을 입힙니다."
+        },
+        "magnet": {
+            "name": "넓은 인맥",
+            "desc": "<b>아이템 획득 범위</b>가 증가합니다."
+        },
+        "discount": {
+            "name": "학생증 할인",
+            "desc": "상점에서 <b>20% 할인</b>을 받습니다."
+        },
+        "extra_life": {
+            "name": "재수강",
+            "desc": "사망 시 한 번 <b>부활</b>합니다."
+        },
+        "dash_damage": {
+            "name": "복도 질주",
+            "desc": "대시 시 적에게 <b>피해</b>를 줍니다."
+        },
+        "thorns": {
+            "name": "예민함",
+            "desc": "받은 피해를 적에게 <b>반사</b>합니다."
+        },
+        "lifesteal_chance": {
+            "name": "지식 흡수",
+            "desc": "공격 시 <color=#ff0000>5%</color> 확률로 <b>체력</b>을 회복합니다."
+        },
+        "mystery_box": {
+            "name": "조별과제 팀원 뽑기",
+            "desc": "무작위 능력치가 상승하거나 하락합니다."
+        }
+    },
+    "shop": {
+        "health_potion": {
+            "name": "초코 우유",
+            "desc": "체력을 <color=#00ff00>30</color> 회복합니다."
+        },
+        "damage_up": {
+            "name": "플러스펜",
+            "desc": "<b>공격력</b>이 <color=#ff0000>2</color> 증가합니다."
+        },
+        "speed_up": {
+            "name": "삼선 슬리퍼",
+            "desc": "<b>이동 속도</b>가 <color=#00ffff>10</color> 증가합니다."
+        },
+        "max_hp_up": {
+            "name": "비타민 C",
+            "desc": "<b>최대 체력</b>이 <color=#00ff00>20</color> 증가합니다."
+        },
+        "full_heal": {
+            "name": "종강",
+            "desc": "<b>체력</b>을 모두 회복합니다."
+        }
+    },
+    "tutorial": {
+        "worldview_title": "세계관: 대학교 생존기",
+        "worldview_content": "4학년을 무사히 마칠 수 있을까?\n\n과제와 발표, 팀워크, 시험 등...\n이 모든 시련을 정복하고 승리하여 졸업을 쟁취하여라!",
+        "guide_title": "신입생 가이드 (조작법)",
+        "guide_content": "<color=#FFFF00>WASD</color>: 이동\n<color=#FFFF00>마우스 왼쪽</color>: 공격\n<color=#FFFF00>Shift</color>: 대시 (무적 회피)\n<color=#FFFF00>1, 2</color>: 무기 교체\n<color=#FFFF00>R</color>: 스킬 사용\n<color=#FFFF00>ESC</color>: 일시정지",
+        "start_btn": "도전 시작"
+    }
+}

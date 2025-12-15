@@ -1,0 +1,36 @@
+{
+    "default": {
+        "max_hp": 100,
+        "speed": 200,
+        "damage": 15,
+        "fire_rate": 0.15,
+        "dash_speed": 500,
+        "dash_duration": 0.6,
+        "dash_cooldown": 3.0,
+        "skill_duration": 5.0,
+        "skill_cooldown": 10.0,
+        "knockback": 0,
+        "crit_chance": 0,
+        "crit_damage": 1.5,
+        "dodge": 0,
+        "pickup_range": 50,
+        "shop_discount": 0.0,
+        "xp_multiplier": 1.0,
+        "lifesteal_chance": 0.0,
+        "invincibility_duration": 1.0,
+        "ammo_save_chance": 0.0,
+        "size_scale": 1.0
+    },
+    "tank": {
+        "max_hp": 150,
+        "speed": 150,
+        "damage": 20,
+        "color": "#008800"
+    },
+    "scout": {
+        "max_hp": 70,
+        "speed": 250,
+        "dash_cooldown": 1.5,
+        "color": "#88FF00"
+    }
+}

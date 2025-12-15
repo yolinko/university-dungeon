@@ -1,0 +1,211 @@
+{
+    "ui": {
+        "start_game": "Start Game",
+        "settings": "Settings",
+        "back": "Back",
+        "enter_dungeon": "University Survival",
+        "paused": "PAUSED",
+        "game_over": "GAME OVER",
+        "restart": "Press R to Restart",
+        "choose_buff": "Choose a Buff",
+        "no_settings": "No Settings Available",
+        "level": "Level",
+        "gold": "Gold",
+        "enemies": "Enemies",
+        "dash_hint": "Press Shift to Dash",
+        "esc_hint": "ESC: Pause",
+        "skill_ready": "Skill (R): Ready",
+        "skill_cooldown": "Skill (R): {time:.1f}",
+        "max_hp": "Max HP",
+        "damage": "Damage",
+        "speed": "Speed",
+        "volume_bgm": "Music Volume",
+        "volume_sfx": "SFX Volume",
+        "language": "Language",
+        "shop_title": "SHOP",
+        "skip": "Skip",
+        "weapon_hint": "Switch: 1, 2",
+        "game_clear": "Game Clear!",
+        "total_time": "Total Time: {time}"
+    },
+    "weapons": {
+        "gun": "Gun",
+        "sword": "Sword"
+    },
+    "buff_types": {
+        "stat": "Stat",
+        "heal": "Heal",
+        "gold": "Gold",
+        "relic": "Relic",
+        "special": "Special",
+        "random": "Random",
+        "cosmetic": "Cosmetic"
+    },
+    "buffs": {
+        "max_hp_up_small": {
+            "name": "Healthy Snack",
+            "desc": "Increases <b>Max HP</b> by <color=#00ff00>20</color>."
+        },
+        "max_hp_up_medium": {
+            "name": "Hearty Meal",
+            "desc": "Increases <b>Max HP</b> by <color=#00ff00>50</color>."
+        },
+        "max_hp_up_large": {
+            "name": "Dragon Heart",
+            "desc": "Increases <b>Max HP</b> by <color=#00ff00>100</color>."
+        },
+        "damage_up_small": {
+            "name": "Sharp Blade",
+            "desc": "Increases <b>Damage</b> by <color=#ff0000>5</color>."
+        },
+        "damage_up_medium": {
+            "name": "Warrior Soul",
+            "desc": "Increases <b>Damage</b> by <color=#ff0000>10</color>."
+        },
+        "damage_up_large": {
+            "name": "Demon Power",
+            "desc": "Increases <b>Damage</b> by <color=#ff0000>20</color>."
+        },
+        "speed_up_small": {
+            "name": "Light Shoes",
+            "desc": "Increases <b>Speed</b> by <color=#00ffff>20</color>."
+        },
+        "speed_up_medium": {
+            "name": "Wind Step",
+            "desc": "Increases <b>Speed</b> by <color=#00ffff>40</color>."
+        },
+        "speed_up_large": {
+            "name": "Lightning Speed",
+            "desc": "Increases <b>Speed</b> by <color=#00ffff>60</color>."
+        },
+        "dash_cd_down_small": {
+            "name": "Flexible Joints",
+            "desc": "Reduces <b>Dash Cooldown</b> by <color=#ffff00>0.2s</color>."
+        },
+        "dash_cd_down_medium": {
+            "name": "Reflexes",
+            "desc": "Reduces <b>Dash Cooldown</b> by <color=#ffff00>0.5s</color>."
+        },
+        "dash_cd_down_large": {
+            "name": "Time Warp",
+            "desc": "Reduces <b>Dash Cooldown</b> by <color=#ffff00>1.0s</color>."
+        },
+        "full_heal": {
+            "name": "Divine Blessing",
+            "desc": "Fully restores <b>HP</b>."
+        },
+        "heal_50": {
+            "name": "First Aid Kit",
+            "desc": "Restores <color=#00ff00>50 HP</color>."
+        },
+        "gold_small": {
+            "name": "Lost Wallet",
+            "desc": "Gain <color=#ffd700>50 Gold</color>."
+        },
+        "gold_medium": {
+            "name": "Treasure Chest",
+            "desc": "Gain <color=#ffd700>150 Gold</color>."
+        },
+        "gold_large": {
+            "name": "Bank Heist",
+            "desc": "Gain <color=#ffd700>500 Gold</color>."
+        },
+        "tanky": {
+            "name": "Turtle Shell",
+            "desc": "Increases <b>Max HP</b> by <color=#00ff00>100</color>, but decreases <b>Speed</b> by <color=#00ffff>30</color>."
+        },
+        "berserker": {
+            "name": "Berserker Rage",
+            "desc": "Increases <b>Damage</b> by <color=#ff0000>25</color>, but increases <b>Dash Cooldown</b> by <color=#ffff00>0.5s</color>."
+        },
+        "sniper": {
+            "name": "Sniper Scope",
+            "desc": "Increases <b>Bullet Speed</b> by <color=#ff00ff>300</color>."
+        },
+        "heavy_bullets": {
+            "name": "Heavy Bullets",
+            "desc": "Increases <b>Bullet Size</b>."
+        },
+        "rapid_fire": {
+            "name": "Rapid Fire",
+            "desc": "Increases <b>Fire Rate</b>."
+        },
+        "crit_chance": {
+            "name": "Precision Lens",
+            "desc": "Gain <color=#ff0000>10%</color> <b>Crit Chance</b>."
+        },
+        "crit_damage": {
+            "name": "Vital Strike",
+            "desc": "Increases <b>Crit Damage</b> by <color=#ff0000>50%</color>."
+        },
+        "knockback": {
+            "name": "Impact Rounds",
+            "desc": "Increases <b>Knockback</b> force."
+        },
+        "piercing": {
+            "name": "Drill Bit",
+            "desc": "Bullets <b>Pierce</b> enemies."
+        },
+        "burn_touch": {
+            "name": "Ignition",
+            "desc": "Attacks inflict <b>Burn</b>."
+        },
+        "magnet": {
+            "name": "Item Magnet",
+            "desc": "Increases <b>Item Pickup Range</b>."
+        },
+        "discount": {
+            "name": "Membership Card",
+            "desc": "Get <b>20% Discount</b> in shops."
+        },
+        "extra_life": {
+            "name": "1-Up",
+            "desc": "<b>Revive</b> once upon death."
+        },
+        "dash_damage": {
+            "name": "Spiked Armor",
+            "desc": "Deal <b>Damage</b> to enemies when dashing."
+        },
+        "thorns": {
+            "name": "Cactus Skin",
+            "desc": "<b>Reflect</b> damage back to attackers."
+        },
+        "lifesteal_chance": {
+            "name": "Blood Pact",
+            "desc": "<color=#ff0000>5%</color> chance to <b>Heal</b> on hit."
+        },
+        "mystery_box": {
+            "name": "Mystery Box",
+            "desc": "Random stat increase or decrease."
+        }
+    },
+    "shop": {
+        "health_potion": {
+            "name": "Health Potion",
+            "desc": "Restores <color=#00ff00>30 HP.</color>"
+        },
+        "damage_up": {
+            "name": "Damage Up",
+            "desc": "Increases <b>Damage</b> by <color=#ff0000>2</color>."
+        },
+        "speed_up": {
+            "name": "Speed Up",
+            "desc": "Increases <b>Speed</b> by <color=#00ffff>10</color>."
+        },
+        "max_hp_up": {
+            "name": "Max HP Up",
+            "desc": "Increases <b>Max HP</b> by <color=#00ff00>20</color>."
+        },
+        "full_heal": {
+            "name": "Full Restore",
+            "desc": "Fully restores <b>HP</b>."
+        }
+    },
+    "tutorial": {
+        "worldview_title": "Worldview: University Survival",
+        "worldview_content": "Can you survive the 4th year?\n\nAssignments, Presentations, Teamwork, Exams...\nConquer them all and achieve graduation!",
+        "guide_title": "Freshman Guide (Controls)",
+        "guide_content": "<color=#FFFF00>WASD</color>: Move\n<color=#FFFF00>L-Click</color>: Attack\n<color=#FFFF00>Shift</color>: Dash (Dodge)\n<color=#FFFF00>1, 2</color>: Switch Weapon\n<color=#FFFF00>R</color>: Skill\n<color=#FFFF00>ESC</color>: Pause",
+        "start_btn": "Start Challenge"
+    }
+}

@@ -1,0 +1,110 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3544a048-343c-4e54-9558-5d4973dd569a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonGameProject</Name>
+    <RootNamespace>PythonGameProject</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="assets.py" />
+    <Compile Include="buff_system.py" />
+    <Compile Include="dungeon.py" />
+    <Compile Include="engine.py" />
+    <Compile Include="entities.py" />
+    <Compile Include="i18n.py" />
+    <Compile Include="main.py" />
+    <Compile Include="shop_system.py" />
+    <Compile Include="ui.py" />
+    <Compile Include="ui_slider_temp.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="assets\fonts\GeekbleMalang2TTF.ttf" />
+    <Content Include="assets\sounds\bgm.mp3" />
+    <Content Include="assets\sounds\bullet_shoot.wav" />
+    <Content Include="assets\sounds\dash.wav" />
+    <Content Include="assets\sounds\Evil Bodega - Adam MacDougall.mp3" />
+    <Content Include="assets\sounds\explosion.mp3" />
+    <Content Include="assets\sounds\footsteps-stairs-fast-90220.mp3" />
+    <Content Include="assets\sounds\game_over.mp3" />
+    <Content Include="assets\sounds\hit.mp3" />
+    <Content Include="assets\sounds\level_clear.mp3" />
+    <Content Include="assets\sounds\pickup.mp3" />
+    <Content Include="assets\sounds\shoot.mp3" />
+    <Content Include="assets\ui\character_1.png" />
+    <Content Include="assets\ui\character_1_full.png" />
+    <Content Include="assets\ui\companion.png" />
+    <Content Include="assets\ui\enemy_bomber.png" />
+    <Content Include="assets\ui\enemy_boss_slime.png" />
+    <Content Include="assets\ui\enemy_default.png" />
+    <Content Include="assets\ui\enemy_ghost.png" />
+    <Content Include="assets\ui\enemy_mage.png" />
+    <Content Include="assets\ui\enemy_rusher.png" />
+    <Content Include="assets\ui\enemy_shotgun.png" />
+    <Content Include="assets\ui\enemy_sniper.png" />
+    <Content Include="assets\ui\enemy_spiral.png" />
+    <Content Include="assets\ui\enemy_turret.png" />
+    <Content Include="assets\ui\floor.png" />
+    <Content Include="assets\ui\floor_32x.png" />
+    <Content Include="assets\ui\floor_64x.png" />
+    <Content Include="assets\ui\hallway.png" />
+    <Content Include="assets\ui\hallway_32x.png" />
+    <Content Include="assets\ui\item_gold.png" />
+    <Content Include="assets\ui\item_potion_health.png" />
+    <Content Include="assets\ui\item_potion_power.png" />
+    <Content Include="assets\ui\item_relic.png" />
+    <Content Include="assets\ui\obj_barrel.png" />
+    <Content Include="assets\ui\obj_chest.png" />
+    <Content Include="assets\ui\obj_crate.png" />
+    <Content Include="assets\ui\obj_door_closed.png" />
+    <Content Include="assets\ui\obj_door_open.png" />
+    <Content Include="assets\ui\obj_shrine.png" />
+    <Content Include="assets\ui\player_default.png" />
+    <Content Include="assets\ui\player_scout.png" />
+    <Content Include="assets\ui\player_tank.png" />
+    <Content Include="assets\ui\proj_bomb.png" />
+    <Content Include="assets\ui\proj_bullet_enemy.png" />
+    <Content Include="assets\ui\proj_bullet_lead_player.png" />
+    <Content Include="data\buffs.json" />
+    <Content Include="data\locales\en.json" />
+    <Content Include="data\locales\ko.json" />
+    <Content Include="data\monsters.json" />
+    <Content Include="data\player_stats.json" />
+    <Content Include="readme.md" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".agent\" />
+    <Folder Include=".agent\workflows\" />
+    <Folder Include="assets\" />
+    <Folder Include="assets\fonts\" />
+    <Folder Include="assets\sounds\" />
+    <Folder Include="assets\ui\" />
+    <Folder Include="data\" />
+    <Folder Include="data\locales\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

@@ -1,0 +1,114 @@
+{
+    "default": {
+        "hp": 50,
+        "speed": 100,
+        "color": "#FF0000",
+        "damage": 10,
+        "behavior": "chase",
+        "shoot_interval": 1.5,
+        "projectile_speed": 300,
+        "projectile_color": "#FF4444",
+        "score": 10
+    },
+    "shotgun": {
+        "hp": 80,
+        "speed": 100,
+        "color": "#FF8800",
+        "damage": 8,
+        "behavior": "shotgun",
+        "shoot_interval": 2.0,
+        "projectile_speed": 300,
+        "projectile_color": "#FF8800",
+        "score": 20
+    },
+    "sniper": {
+        "hp": 30,
+        "speed": 80,
+        "color": "#8800FF",
+        "damage": 20,
+        "behavior": "sniper",
+        "shoot_interval": 3.0,
+        "projectile_speed": 900,
+        "projectile_color": "#FF00FF",
+        "score": 30
+    },
+    "spiral": {
+        "hp": 150,
+        "speed": 100,
+        "color": "#0088FF",
+        "damage": 8,
+        "behavior": "spiral",
+        "shoot_interval": 0.2,
+        "projectile_speed": 200,
+        "projectile_color": "#00FFFF",
+        "score": 50
+    },
+    "mage": {
+        "hp": 60,
+        "speed": 50,
+        "color": "#FF0088",
+        "damage": 15,
+        "behavior": "mage",
+        "shoot_interval": 3.0,
+        "projectile_speed": 0,
+        "projectile_color": "#FF0088",
+        "score": 40
+    },
+    "bomber": {
+        "hp": 100,
+        "speed": 100,
+        "color": "#444444",
+        "damage": 25,
+        "behavior": "bomber",
+        "shoot_interval": 2.5,
+        "projectile_speed": 150,
+        "projectile_color": "#000000",
+        "score": 40
+    },
+    "boss_slime": {
+        "hp": 1000,
+        "speed": 60,
+        "color": "#00FF00",
+        "damage": 15,
+        "behavior": "boss_slime",
+        "shoot_interval": 1.0,
+        "projectile_speed": 250,
+        "projectile_color": "#00FF00",
+        "score": 500,
+        "width": 128,
+        "height": 128
+    },
+    "ghost": {
+        "hp": 30,
+        "speed": 60,
+        "color": "#AAAAAA",
+        "damage": 10,
+        "behavior": "ghost",
+        "shoot_interval": 999,
+        "projectile_speed": 0,
+        "projectile_color": "#FFFFFF",
+        "score": 40
+    },
+    "rusher": {
+        "hp": 20,
+        "speed": 300,
+        "color": "#FFFF00",
+        "damage": 15,
+        "behavior": "rusher",
+        "shoot_interval": 999,
+        "projectile_speed": 0,
+        "projectile_color": "#FFFFFF",
+        "score": 30
+    },
+    "turret": {
+        "hp": 150,
+        "speed": 0,
+        "color": "#444444",
+        "damage": 20,
+        "behavior": "turret",
+        "shoot_interval": 0.5,
+        "projectile_speed": 400,
+        "projectile_color": "#FF0000",
+        "score": 50
+    }
+}
